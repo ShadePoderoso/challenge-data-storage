@@ -8,4 +8,45 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 100%;
+}
+
+.img-logo {
+  margin-bottom: 20px;
+}
+
+.img-btn {
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.container{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  display: inline-block;
+}
+.right-container {
+  background-color: hsl(228, 56%, 26%);
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin: 30px;
+  display: inline;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.left-container {
+  background-color: hsl(228, 56%, 26%);
+  padding: 40px 120px 30px 40px;
+  top: 30%;
+  left: 30%;
+  border-radius: 10px 80px 10px 10px;
+  display: inline;
+  position: absolute;
 }
